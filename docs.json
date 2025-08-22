@@ -1,0 +1,26 @@
+{
+    "name": "Advanced Ballistics Asset",
+    "description": "Documentation for the UE5 Ballistics Asset",
+    "sidebar": [
+        {
+            "group": "Setup",
+            "pages": [
+                {
+                    "title": "Overview",
+                    "href": "/",
+                    "icon": "rocket"
+                },
+                {
+                    "title": "Adding to Project",
+                    "href": "/setup",
+                    "icon": "folder-plus"
+                },
+                {
+                    "title": "Next Steps",
+                    "href": "/next-steps",
+                    "icon": "arrow-right"
+                }
+            ]
+        }
+    ]
+}
