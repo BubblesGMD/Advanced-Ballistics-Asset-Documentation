@@ -1,0 +1,26 @@
+# Adding to Project
+
+The Ballistics Asset is very simple to implement:
+
+1. Spawn the "BP_ProjectileParent" (or any children)
+2. Set the parameters. Setting the world location and rotation of the spawn transform is needed, along with the desired bullet type and owner.
+
+# EXAMPLE SETUP
+![Spawn Bullet](/assets/images/spawn.png)
+
+---
+## Customization
+
+With this asset, customization is straightforward and modular. 
+
+
+To add **BULLET TYPES**, you will need to
+
+1. Access the "BulletSpawnData" data table, and add the desired bullet.   **WARNING** - Row name can NOT have spaces.
+2. Add the **EXACT** name of the row into the "Bullet_Types" enumerator.
+3. Spawn the "BP_ProjectileParent" and set the "Bullet Type" to your new bullet.
+
+To add **PHYSICS MATERIALS**, you will need to 
+
+1. Create your Phys Mat inside ProjectileSystem/Data/PhysMats
+2. Access the "PhysMatData" data table, and add the **EXACT** name of your phys mat in a new row and set your desired parameters.
